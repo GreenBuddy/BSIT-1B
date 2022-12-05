@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Times New Roman;
+}
+
+h1 {
+    text-align: center;
+}
+.container {
+    background-image: url('header.jpg');
+    display: grid;
+    align-items: center;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.section {
+    width: 100%;
+    border: 2px solid yellow;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+h3 {
+    display: inline;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+
+
+.items {
+    background-image: url('tilebg.jpg');
+    background-size: cover;
+    border-radius: 5px;
+    margin: 30px 5px 0px 5px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    align-items: center;
+    position: relative;
+}
+
+.btn {
+    text-decoration: none;
+    line-height: 20px;
+    position: absolute;
+    background-color: #c71111;
+    right: 72px;
+    bottom: 50px;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+    color: whitesmoke;
+    padding: 0px 3px;
+}
+
+img {
+    height: 170px;
+    width: 140px;
+}
