@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+.container {
+    height: 100vh;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    background-size: cover;
+    height: 30%;
+    width: 300px;
+    display: flex;
+    border: 2px solid #292626;
+    box-shadow: 0px 3px 9px #b00f0fdc;
+    border-radius: 20px;
+    margin: 0 30px;
+    padding: 0;
+}
+
+.group1 {
+        background-image:url('lesson1bg.jpg');
+        position: relative;
+        background-size: cover;
+        background-position: center;
+}
+
+.group2 {
+    background-image: url('lesson2bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.side {
+    width: 50%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: #000000cb;
+    border-bottom-left-radius: 17.8px;
+    border-top-left-radius: 17.8px;
+}
+
+.right {
+    background-color: #650004a1;
+    border-bottom-right-radius: 17.8px;
+    border-top-right-radius: 17.8px;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: none;
+}
+
+ul {
+    position: relative;
+}
+
+li{
+    list-style: none;
+    font-size: 10px;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 6px;
+    height: 20px;
+    width: 100px;
+    background-color: #000000;
+    display: block;
+    position: relative;
+    right: 50px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h4 {
+    position: relative;
+    left: 45px;
+}
+
+h2 {
+    color: #cc1111;
+    border: 1px solid #cc1111;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+button {
+    color: whitesmoke;
+    margin-left: 25px;
+    background-color: #383838;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.grp {
+    position: absolute;
+    transform: translateY(-40px);
+    color: #cc1111;
+}
+
+.grp2 {
+    position: absolute;
+    padding-left: 30px;
+    transform: translateY(-40px);
+    color: #cc1111;
+}
