@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: url('background.png');
+}
+
+.header {
+    display: flex;
+    flex-wrap: flex;
+    align-items: center;
+    align-content: center;
+    color: White;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+    padding: 20px;
+}
+
+.autobiography {
+    background-color: #000000cb;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px 0;
+}
+
+img {
+    height: auto;
+    width: 200px;
+}
+
+embed {
+    height: auto;
+    width: 400px;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
